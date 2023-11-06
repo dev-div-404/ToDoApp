@@ -1,0 +1,200 @@
+.addtaskdiv {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.viewtaskdiv {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.addtaskformcontainer{
+    height: 100px;
+}
+
+.addtaskform{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.addtaskform input{
+    height: 40px;
+    margin-left: 50px;
+}
+
+#taskdescription{
+    width: 700px;
+    font-size: 15px;
+
+}
+
+.addtaskform button{
+    margin-left: 100px;
+    border-radius: 10px;
+    height: 50px;
+    width: 80px;
+    font-size: 20px;
+    font-family: cursive;
+    background-color: rgb(15, 143, 15);
+}
+
+#addtaskbutton:hover{
+    background-color: rgb(26, 87, 26);
+}
+
+#addtaskbutton:active{
+    background-color: rgb(37, 204, 37);
+}
+
+.addtasklabel{
+    font-size:xx-large;
+    color: green;
+}
+
+.view-div-intro{
+    font-size: 60px;
+}
+
+.tasklist{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notaskdiv{
+    margin-top: 50px;
+    font-size: 30px;
+    opacity: 0.5;
+}
+
+.indivisual-div{
+    width: 90vw;
+    min-height: 60px;
+    height: max-content;
+    display: flex;
+    margin-bottom: 10px;
+    background-color: rgb(6, 23, 14);
+    
+    border-width: 3px;
+    border-style: solid;
+    border-image: 
+        linear-gradient(
+        to bottom, 
+        rgb(235, 235, 238), 
+        rgba(0, 0, 0, 0)
+        ) 1 100%;
+}
+
+.view-div-container{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.task-indivisual-property{
+    display: inline;
+    float:inline-start;
+    padding-left: 30px;
+}
+
+.task-description{
+    word-wrap: break-word;
+    max-width: 100%;
+    width: 40%;
+}
+
+.task-date{
+    width: 20%;
+}
+
+.task-status{
+    width: 20%;
+}
+
+.task-action{
+    
+}
+
+.task-action-btn{
+    /* position: absolute; */
+    margin-top: 20px;
+    float: left;
+    margin: auto;
+    margin-left: 10px;
+}
+
+.delete-task-btn{
+    background-color: grey;
+    color: rgb(147, 25, 25);
+    height: 40px;
+    width: 40px;
+    border-radius: 20%;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: auto;
+    margin-right: 30px;
+    
+}
+
+.done-task-btn{
+    background-color: rgb(40, 199, 40);
+    color: rgb(21, 11, 11);
+    height: 40px;
+    width: fit-content;
+    border-radius: 20%;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: auto;
+    margin-right: 30px;
+    
+}
+
+.user-statusbar-div{
+    height: 50px;
+    /* border: white solid 1px; */
+    background-color: rgb(1, 14, 30);
+
+}
+
+
+.user-status-bar{
+    display: flex;
+    font-size: 35px;
+    justify-content: space-between; /* This places the divs at the start and end of the container */
+    align-items: center; 
+}
+
+.user-statusbar-name{
+    color: rgb(42, 105, 84);
+    margin-left: 60px;
+}
+
+.user-statusbar-logout{
+    margin-right: 30px;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 80px;
+    background-color: rgb(67, 3, 3);
+    font-size: 20px;
+    color: wheat;
+    border: black solid 1px;
+}
+
+.user-statusbar-logout:hover{
+    background-color: black;
+}
+
+.user-statusbar-logout:active{
+    color: red;
+}
